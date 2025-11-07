@@ -16,7 +16,7 @@ backend process of running it on parsed data (in the SiS app) vs directly agains
 
 - **AI_EXTRACT (AISQL)**: Extracts information from an input string or file.
 - **PARSE_DOCUMENT**: Returns the extracted content from a document on a Snowflake stage as a JSON-formatted string.
-- This function supports two types of extraction, Optical Character Recognition (OCR), and layout.
+
 
 ---
 
