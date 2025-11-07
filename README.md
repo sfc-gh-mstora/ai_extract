@@ -11,6 +11,7 @@ backend process of running it on parsed data (in the SiS app) vs directly agains
 1. **Initial Setup** (`Initial_Setup.sql`): Create DB/Schema/Stage to store unstructured data, runs through the ease of use of ai_extract directly against .pdf's
 2. **SiS Setup** (`SiS_Setup.py`): Demonstrates AI/ML features including document processing, embeddings, search, and intelligent agents
 
+
 ### Key Cortex Features Demonstrated
 
 - **AI_EXTRACT (AISQL)**: Extracts information from an input string or file.
@@ -35,7 +36,7 @@ CREATE STAGE IF NOT EXISTS pdf_processing;
 CREATE STAGE IF NOT EXISTS loan_docs_test;
 ```
 
-**Purpose**: Establishes the foundational database structure for the demo. [REPLACE string text with key/values/questions for extraction]
+**Purpose**: Establishes the foundational database structure for the demo. Once Stage is created, upload sample .pdf's that will be used for demo.
 
 ```sql
 CREATE OR REPLACE TABLE pdf_extractor_db.pdf_processing.doc_extract AS
@@ -78,7 +79,7 @@ AI_EXTRACT(
 FROM DIRECTORY (@pdf_extractor_db.pdf_processing.pdf_upload_stage);
 ```
 
-**Purpose**: Creates 1 row with json output from ai_extract for each corresponding pdf. 
+**Purpose**: Creates 1 row with json output from ai_extract for each corresponding pdf. [REPLACE string text with key/values/questions for extraction]
 
 ```sql
 select relative_path
