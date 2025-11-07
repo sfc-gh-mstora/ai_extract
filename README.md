@@ -1,6 +1,7 @@
 # AI_EXTRACT SiS and backend demo for extracting key/attributes from Customer Loan Documentation 
 (can be leveraged for numerous unstructured extraction demo)
 
+
 ## Snowflake Cortex Features Demo Documentation
 
 ## Overview
@@ -11,6 +12,9 @@ backend process of running it on parsed data (in the SiS app) vs directly agains
 1. **Initial Setup** (`Initial_Setup.sql`): Create DB/Schema/Stage to store unstructured data, runs through the ease of use of ai_extract directly against .pdf's
 2. **SiS Setup** (`SiS_Setup.py`): Demonstrates AI/ML features including document processing, embeddings, search, and intelligent agents
 
+<img width="1216" height="584" alt="Screenshot 2025-11-07 at 9 19 42 AM" src="https://github.com/user-attachments/assets/ade1516b-bebe-42d6-91f5-0b0317fdc7b4" />
+<img width="1173" height="345" alt="Screenshot 2025-11-07 at 9 19 49 AM" src="https://github.com/user-attachments/assets/66697d65-8fb7-4f02-ad86-cc767ef8b158" />
+<img width="307" height="663" alt="Screenshot 2025-11-07 at 9 20 13 AM" src="https://github.com/user-attachments/assets/177406d4-17d3-42d9-8c30-9d7b2e8bbb19" />
 
 ### Key Cortex Features Demonstrated
 
