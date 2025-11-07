@@ -8,8 +8,8 @@
 This demo showcases the ai_extract function within a SiS app. Utilized to demo the feature to business with great response. Additionally, ran through the 
 backend process of running it on parsed data (in the SiS app) vs directly against staged .pdf's.
 
-1. **Initial Setup** (`Initial_Setup`): Create DB/Schema/Stage to store unstructured data, runs through the ease of use of ai_extract directly against .pdf's
-2. **SiS Setup** (`SiS_Setup`): Demonstrates AI/ML features including document processing, embeddings, search, and intelligent agents
+1. **Initial Setup** (`Initial_Setup.sql`): Create DB/Schema/Stage to store unstructured data, runs through the ease of use of ai_extract directly against .pdf's
+2. **SiS Setup** (`SiS_Setup.py`): Demonstrates AI/ML features including document processing, embeddings, search, and intelligent agents
 
 ### Key Cortex Features Demonstrated
 
