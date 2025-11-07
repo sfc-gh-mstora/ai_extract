@@ -4,7 +4,9 @@ CREATE DATABASE IF NOT EXISTS pdf_extractor_db;
 CREATE STAGE IF NOT EXISTS pdf_processing;
 CREATE STAGE IF NOT EXISTS loan_docs_test;
 
-ls @fis_acbs.data.loan_docs;
+--UPLOAD SAMPLE pdfs
+
+ls @pdf_extractor_db.pdf_processing.loan_docs_test;
 
 
 CREATE OR REPLACE TABLE pdf_extractor_db.pdf_processing.doc_extract AS
